@@ -24,7 +24,9 @@
     echo tableau_en_select(array($truc[1] => $destinations[$truc[0]][$truc[1]]) , "choisir_triple.php");
   }else{
       echo tableau_en_select($destinations, "");
+			echo 'test';
   }
 
   include("./footer.php")
 ?>
+
