@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+    <item categorie="appartement" prix="300000" logement="75">
+        <description>Paris - DANS une résidence familiale, bel appartement lumineux de 4 pièces avec GARAGE; Entrée avec placard, séjour double donnant sur balcon plein sud, cuisine équipée, 2 chambres dont une avec placard, salle d'eau, WC indépendant, cave. Fenêtres PVC double vitrage. proche école et commerces</description>        
+        <contact>
+	  <nom>Terieur</nom>
+	  <prenom>Alain</prenom>
+          <mail>alain.terieur@gov.fr</mail>
+        </contact>
+    </item>
+    
+    <item categorie="maison" prix="400000" terrain="160" logement="45">
+        <description>Saint-Germain. En centre ville, petite maison avec cuisine équipée ouverte sur un séjour de 30 m2 avec cheminée, donnant sur une terrasse plein sud. Sous-sol aménageable. Chauffage au biogaz - BEAUX VOLUMES.</description>        
+        <contact>
+	  <nom>Terieur</nom>
+	  <prenom>Alex</prenom>
+          <mail>alex.terieur@gov.fr</mail>
+        </contact>        
+    </item>
+    
+    <item categorie="maison" prix="699000" logement='100' terrain="544">
+        <description>Bois d Arcy/ En centre ville, belle maison traditionnelle de 7 pièces offrant une vaste entrée, une grande cuisine équipée ouverte sur un séjour de 30 m2 avec cheminée, donnant sur une terrasse plein sud. A l'étage, 4 chambres, une salle de bains, grenier. Sous-sol total comprenant garage, bureau, salle de jeux et buanderie. Chauffage au gaz.</description>               
+        <contact>
+	  <nom>Deschamps</nom>
+	  <prenom>Violette</prenom>
+          <mail>violette.deschamps@onf.fr</mail>
+        </contact>
+    </item>
+</catalogue>

@@ -1,0 +1,8 @@
+<!ELEMENT carnet (item*)>
+<!ELEMENT item (mail* tel*)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+
+<!ATTLIST item type CDATA #IMPLIED>
+<!ATTLIST mail adresse #REQUIRED>
+<!ATTLIST telephone num CDATA #REQUIRED>

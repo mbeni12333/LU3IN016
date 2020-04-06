@@ -1,0 +1,13 @@
+<!ELEMENT catalogue (item)*>
+<!ELEMENT item (description, contact)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT contact (nom, prenom, mail)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT mail (#PCDATA)>
+
+
+<!ATTLIST item terrain (appartement|maison) #IMPLIED
+               logement CDATA #REQUIRED
+               categorie CDATA #REQUIRED
+               prix CDATA #REQUIRED>

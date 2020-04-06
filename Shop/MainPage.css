@@ -1,0 +1,5 @@
+.autoItem:hover {background-color: cyan;}
+
+#query, #listeAutoComp { width: 300px; margin-right: 10px; border: 1px solid black; }
+
+#rayon {text-align:center;height:150px; background-repeat: no-repeat}

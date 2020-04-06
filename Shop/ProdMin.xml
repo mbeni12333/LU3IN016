@@ -1,0 +1,18 @@
+<stock>
+<rayon id="Beverages">
+	Soft drinks, coffees, teas, beers, and ales</rayon>
+<rayon id="Condiments" img="condiments.gif">
+	Sweet and savory sauces, relishes, spreads, and seasonings</rayon>
+<produit for="Beverages">
+  <prix val="18.0000" devise='$' />
+	<nom>Chai</nom>
+</produit>
+<produit for="Beverages">
+  <prix val="19.0000" devise='$' />
+  <nom>Chang</nom>
+</produit>
+<produit for="Condiments">
+  <prix val="10.0000" devise='$' />
+  <nom>Aniseed Syrup</nom>
+</produit>
+</stock>

@@ -1,0 +1,326 @@
+<stock>
+<rayon id="Beverages" img="beverages.gif">
+	Soft drinks, coffees, teas, beers, and ales</rayon>
+<rayon id="Condiments" img="condiments.gif">
+	Sweet and savory sauces, relishes, spreads, and seasonings</rayon>
+<rayon id="Confections" img="confections.gif">
+	Desserts, candies, and sweet breads</rayon>
+<rayon id="Dairy" img="dairy.gif">
+	Cheeses</rayon>
+<rayon id="Grains" img="cereals.gif">
+	Breads, crackers, pasta, and cereal</rayon>
+<rayon id="Meat" img="meat.gif">
+	Prepared meats</rayon>
+<rayon id="Produce" img="produce.gif">
+	Dried fruit and bean curd</rayon>
+<rayon id="Seafood" img="seafood.gif">
+	Seaweed and fish</rayon>
+<produit for="Beverages">
+	<prix val="18.0000" devise='$' />
+	<nom>Chai</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="19.0000" devise='$' />
+	<nom>Chang</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="10.0000" devise='$' />
+	<nom>Aniseed Syrup</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="22.0000" devise='$' />
+	<nom>Chef Anton's Cajun Seasoning</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="21.3500" devise='$' />
+	<nom>Chef Anton's Gumbo Mix</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="25.0000" devise='$' />
+	<nom>Grandma's Boysenberry Spread</nom>
+</produit>
+<produit for="Produce">
+	<prix val="30.0000" devise='$' />
+	<nom>Uncle Bob's Organic Dried Pears</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="40.0000" devise='$' />
+	<nom>Northwoods Cranberry Sauce</nom>
+</produit>
+<produit for="Meat">
+	<prix val="97.0000" devise='$' />
+	<nom>Mishi Kobe Niku</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="31.0000" devise='$' />
+	<nom>Ikura</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="21.0000" devise='$' />
+	<nom>Queso Cabrales</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="38.0000" devise='$' />
+	<nom>Queso Manchego La Pastora</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="6.0000" devise='$' />
+	<nom>Konbu</nom>
+</produit>
+<produit for="Produce">
+	<prix val="23.2500" devise='$' />
+	<nom>Tofu</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="15.5000" devise='$' />
+	<nom>Genen Shouyu</nom>
+</produit>
+<produit for="Confections">
+	<prix val="17.4500" devise='$' />
+	<nom>Pavlova</nom>
+</produit>
+<produit for="Meat">
+	<prix val="39.0000" devise='$' />
+	<nom>Alice Mutton</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="62.5000" devise='$' />
+	<nom>Carnarvon Tigers</nom>
+</produit>
+<produit for="Confections">
+	<prix val="9.2000" devise='$' />
+	<nom>Teatime Chocolate Biscuits</nom>
+</produit>
+<produit for="Confections">
+	<prix val="81.0000" devise='$' />
+	<nom>Sir Rodney's Marmalade</nom>
+</produit>
+<produit for="Confections">
+	<prix val="10.0000" devise='$' />
+	<nom>Sir Rodney's Scones</nom>
+</produit>
+<produit for="Grains">
+	<prix val="21.0000" devise='$' />
+	<nom>Gustaf's Knäckebröd</nom>
+</produit>
+<produit for="Grains">
+	<prix val="9.0000" devise='$' />
+	<nom>Tunnbröd</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="4.5000" devise='$' />
+	<nom>Guaraná Fantástica</nom>
+</produit>
+<produit for="Confections">
+	<prix val="14.0000" devise='$' />
+	<nom>NuNuCa Nuß-Nougat-Creme</nom>
+</produit>
+<produit for="Confections">
+	<prix val="31.2300" devise='$' />
+	<nom>Gumbär Gummibärchen</nom>
+</produit>
+<produit for="Confections">
+	<prix val="43.9000" devise='$' />
+	<nom>Schoggi Schokolade</nom>
+</produit>
+<produit for="Produce">
+	<prix val="45.6000" devise='$' />
+	<nom>Rössle Sauerkraut</nom>
+</produit>
+<produit for="Meat">
+	<prix val="123.7900" devise='$' />
+	<nom>Thüringer Rostbratwurst</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="25.8900" devise='$' />
+	<nom>Nord-Ost Matjeshering</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="12.5000" devise='$' />
+	<nom>Gorgonzola Telino</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="32.0000" devise='$' />
+	<nom>Mascarpone Fabioli</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="2.5000" devise='$' />
+	<nom>Geitost</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="14.0000" devise='$' />
+	<nom>Sasquatch Ale</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="18.0000" devise='$' />
+	<nom>Steeleye Stout</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="19.0000" devise='$' />
+	<nom>Inlagd Sill</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="26.0000" devise='$' />
+	<nom>Gravad lax</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="263.5000" devise='$' />
+	<nom>Côte de Blaye</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="18.0000" devise='$' />
+	<nom>Chartreuse verte</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="18.4000" devise='$' />
+	<nom>Boston Crab Meat</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="9.6500" devise='$' />
+	<nom>Jack's New England Clam Chowder</nom>
+</produit>
+<produit for="Grains">
+	<prix val="14.0000" devise='$' />
+	<nom>Singaporean Hokkien Fried Mee</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="46.0000" devise='$' />
+	<nom>Ipoh Coffee</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="19.4500" devise='$' />
+	<nom>Gula Malacca</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="9.5000" devise='$' />
+	<nom>Rogede sild</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="12.0000" devise='$' />
+	<nom>Spegesild</nom>
+</produit>
+<produit for="Confections">
+	<prix val="9.5000" devise='$' />
+	<nom>Zaanse koeken</nom>
+</produit>
+<produit for="Confections">
+	<prix val="12.7500" devise='$' />
+	<nom>Chocolade</nom>
+</produit>
+<produit for="Confections">
+	<prix val="20.0000" devise='$' />
+	<nom>Maxilaku</nom>
+</produit>
+<produit for="Confections">
+	<prix val="16.2500" devise='$' />
+	<nom>Valkoinen suklaa</nom>
+</produit>
+<produit for="Produce">
+	<prix val="53.0000" devise='$' />
+	<nom>Manjimup Dried Apples</nom>
+</produit>
+<produit for="Grains">
+	<prix val="7.0000" devise='$' />
+	<nom>Filo Mix</nom>
+</produit>
+<produit for="Meat">
+	<prix val="32.8000" devise='$' />
+	<nom>Perth Pasties</nom>
+</produit>
+<produit for="Meat">
+	<prix val="7.4500" devise='$' />
+	<nom>Tourtière</nom>
+</produit>
+<produit for="Meat">
+	<prix val="24.0000" devise='$' />
+	<nom>Pâté chinois</nom>
+</produit>
+<produit for="Grains">
+	<prix val="38.0000" devise='$' />
+	<nom>Gnocchi di nonna Alice</nom>
+</produit>
+<produit for="Grains">
+	<prix val="19.5000" devise='$' />
+	<nom>Ravioli Angelo</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="13.2500" devise='$' />
+	<nom>Escargots de Bourgogne</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="55.0000" devise='$' />
+	<nom>Raclette Courdavault</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="34.0000" devise='$' />
+	<nom>Camembert Pierrot</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="28.5000" devise='$' />
+	<nom>Sirop d'érable</nom>
+</produit>
+<produit for="Confections">
+	<prix val="49.3000" devise='$' />
+	<nom>Tarte au sucre</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="43.9000" devise='$' />
+	<nom>Vegie-spread</nom>
+</produit>
+<produit for="Grains">
+	<prix val="33.2500" devise='$' />
+	<nom>Wimmers gute Semmelknödel</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="21.0500" devise='$' />
+	<nom>Louisiana Fiery Hot Pepper Sauce</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="17.0000" devise='$' />
+	<nom>Louisiana Hot Spiced Okra</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="14.0000" devise='$' />
+	<nom>Laughing Lumberjack Lager</nom>
+</produit>
+<produit for="Confections">
+	<prix val="12.5000" devise='$' />
+	<nom>Scottish Longbreads</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="36.0000" devise='$' />
+	<nom>Gudbrandsdalsost</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="15.0000" devise='$' />
+	<nom>Outback Lager</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="21.5000" devise='$' />
+	<nom>Flotemysost</nom>
+</produit>
+<produit for="Dairy">
+	<prix val="34.8000" devise='$' />
+	<nom>Mozzarella di Giovanni</nom>
+</produit>
+<produit for="Seafood">
+	<prix val="15.0000" devise='$' />
+	<nom>Röd Kaviar</nom>
+</produit>
+<produit for="Produce">
+	<prix val="10.0000" devise='$' />
+	<nom>Longlife Tofu</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="7.7500" devise='$' />
+	<nom>Rhönbräu Klosterbier</nom>
+</produit>
+<produit for="Beverages">
+	<prix val="18.0000" devise='$' />
+	<nom>Lakkalikööri</nom>
+</produit>
+<produit for="Condiments">
+	<prix val="13.0000" devise='$' />
+	<nom>Original Frankfurter grüne Soße</nom>
+</produit>
+</stock>

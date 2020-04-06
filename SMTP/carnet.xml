@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='no' ?>
+<!DOCTYPE carnet SYSTEM 'carnet.dtd' >
+<carnet>
+<item type='moi'>
+   <mail adresse='Emmanuel.Saint-James@lip6.fr'>Emmanuel Saint-James</mail>
+   <mail adresse='Emmanuel.Saint-James@upmc.fr'></mail>
+   <telephone num="01 11 55 33 44">Fixe à Paris</telephone>
+   <telephone num="02 55 44 22 11">Fixe à la maison de campagne</telephone>
+</item>
+<item>
+   <mail adresse='esj@rezo.net' >esj</mail>
+   <telephone num="06 11 22 33 44">Mobile</telephone>
+</item>
+<item type='famille'>
+   <mail adresse='Emmanuel.Saint-James@lip6.fr'>Papa</mail>
+</item>
+</carnet>

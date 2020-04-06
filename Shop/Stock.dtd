@@ -1,0 +1,15 @@
+<!ELEMENT stock (rayon+,produit*)>
+<!ELEMENT rayon (#PCDATA)>
+<!ELEMENT produit (prix, nom)>
+<!ELEMENT prix EMPTY>
+<!ELEMENT nom (#PCDATA)>
+
+<!ATTLIST rayon
+          id CDATA #REQUIRED
+          img CDATA #IMPLIED>
+
+<!ATTLIST produit
+          for IDREF #REQUIRED>
+<!ATTLIST prix
+          val CDATA #REQUIRED
+          devise ($|€) #REQUIRED>

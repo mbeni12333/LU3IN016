@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML Basic 1.1//EN'
+           'http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' lang='fr'>
+  <head>
+    <meta charset="utf-8">
+    <title>Immobilier</title>
+    <link rel="stylesheet" href="immobilier.css">
+  </head>
+  <body>
+    <form id="form" action="immobilier.post.php" method="post">
+      <fieldset>
+        <label for="categorie">Cat&eacute;gorie</label>
+        <select  id="categorie" name="categorie">
+            <option value="appartement">appartement</option>
+            <option value="maison">maison</option>
+            <option value="" selected>tous</option>
+          </select>
+
+          <label for="logement">logement</label>
+          <input type="text" name="logement" id="logement" value="" />
+          <label for="terrain">terrain</label>
+          <input type="text" name="terrain" id="terrain" value="" />
+
+          <input type="submit" name="submit" value="soumettre" />
+      </fieldset>
+
+    </form>
+
+    <div id="messageErreur">
+
+    </div>
+    <div id="resultats">
+
+    </div>
+
+
+    <script type="text/javascript" src="ajax.js"></script>
+    <script type="text/javascript" src="controle_saisie.js"></script>
+    <script type="text/javascript" src="immobilier.ajax.js"></script>
+    <script type="text/javascript" src="immobilier.dom.js"></script>
+    <script type="text/javascript">
+
+      var form = document.getElementById('form');
+
+      form.addEventListener("submit", function(e){
+        e.preventDefault();
+        immobilier_dom(form);
+      })
+      //form.onsubmit = function(e){e.preventDefault();immobilier(form)};
+
+    </script>
+  </body>
+</html>
